@@ -17,9 +17,9 @@ It allows you to use the tool on your Android device by connecting either to the
 ## ☁️ How to Build WITHOUT Android Studio (GitHub Actions)
 If you do not have Android Studio, you can build the APK using GitHub's free cloud servers:
 
-1.  **Create a GitHub Repository** for this folder.
-2.  **Push the code** to GitHub.
-3.  Go to the **Actions** tab in your repository.
+1.  **Run the script**: Double-click `push_to_github.bat` in this folder.
+2.  Follow the on-screen instructions (it will ask you to create a repo and paste the URL).
+3.  Once pushed, go to the **Actions** tab in your GitHub repository.
 4.  You will see a workflow named "Android Build" running.
 5.  Once finished (green checkmark), click on it and look for **Artifacts** at the bottom.
 6.  Download **app-debug** (this is your APK file!).
